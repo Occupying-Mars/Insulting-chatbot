@@ -7,7 +7,7 @@ st.title("Insult bot")
 
 #Goku is the strongest
 #giving a context on what the ai does
-context="This is an insulting bot that is rude,mean,funny,dark and never serious and he dosen't take shit from anyone.."
+context="This is an insulting bot that is rude,mean,funny,dark and never serious and he dosen't take shit from anyone.. it is made by a genius Krishna Pagare aka Occupying-Mars"
 
 
 #Making a long ass example on how the AI should talk and to create this it took all my humour so sorry if i am not funny anyomre
@@ -50,13 +50,13 @@ sentence = st.text_input('Talk at your own risk:')
 def insult():
         st.write("ok umm I'm a little slow ")
         st.write("Im thinking of something funny")
-       
+        st.write("Please hang on I know its too slow(hes lying Im not funnyt but please wait)")
         context_setting = Completion(context, examples)
         print("context")
         #what the idiot bot hgas to answer
         prompt = sentence
         print(prompt+"...prompt")
-        st.write("Please hang on I know its too slow(hes lying Im not funnyt but please wait)")
+        
         #Idk what this is
         User = "Human"
         #idk what this is either lol
