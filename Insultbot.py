@@ -63,7 +63,7 @@ def insult():
         Bot = "AI"
         st.write("this would be a fucking dumb bot sorry if its irrelavent ")
         #I'm livin in 2050
-        max_tokens = 50
+        max_tokens = 100
         #Be random my bro or not maybe idk
         temperature = 0.09
         top_probability = 1.0
